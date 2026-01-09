@@ -6,6 +6,7 @@ from .models import Message
 # 留言列表
 class MessageList(ListView):
     model = Message
+    template_name = 'message_list.html'
     ordering = ['-id']      # 以 id 欄位值由大至小反向排序
 
 # 留言檢視
