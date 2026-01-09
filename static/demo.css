@@ -1,0 +1,12 @@
+nav {
+    background-color: rgb(247, 202, 202);
+    color: rgb(112, 46, 2);
+    display: flex;
+    padding: 5pt;
+}
+
+.mtype {
+    border: 2px solid rosybrown;
+    width: 200px;
+}
+
